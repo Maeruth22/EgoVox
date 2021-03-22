@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <title>Sobre este Blog</title>
+</head>
+<body>
+
+    <header><!--Header de la pagina-->
+        <h1>EgoVox, un blog de música</h1>
+        </header>
+    <nav id="nav-bar" class="nav-bar"> <!--barra de navegacion de la pagina-->
+        <ul>
+            <li>
+                <a href="index.html">Página principal </a>
+            </li>
+            <li>
+                <a href="sobremi.html">Sobre mi </a>
+            </li>
+            <li>
+                <a href="sobreesteblog.html">Sobre este blog </a>
+            </li>
+        </ul>
+    </nav>
+    <section id="sobreesteblog">
+        <h2>Sobre este blog</h2>
+            <article>
+                <p>Arranqué con este blog durante la cuarentena porque no encontraba reseñas sobre algunos discos y artistas que me interesaba discutir.</p>
+                <p>Decidí enfocarme en artistas que considero poco reconocidxs, no artistas hiper famosxs ni artistas plenamente desconocidxs.</p>
+                <p>Eventualmente me gustaría hacer más reseñas sobre bandas y artistas nacionales que a veces quedan relegados frente a la música anglosajona.</p>
+            </article>
+    </section>
+    <h3>¿Querés dejar un comentario?</h3> <!--seccion de la pagina para completar el formulario y para dejar comentarios-->
+    <div class="comentario">
+    <form class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Nombre" maxlength="30">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="Apellido" maxlength="30">
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" placeholder="ejemplo@correo.com" maxlength="60">
+
+    <h4>¿Primera vez en este Blog?</h4>
+
+        <input type="radio" id="si" name="recurrencia" value="si">
+        <label for="si">Sí</label><br>
+        <input type="radio" id="no" name="recurrencia" value="no">
+        <label for="no">No</label><br>
+        <input type="radio" id="otro" name="recurrencia" value="otro">
+        <label for="Otro">No recuerdo</label>
+        <br>
+        <br>
+        <textarea id="mensaje" maxlength="400" rows="10" cols="80"></textarea>
+        <input type="submit" value="Comentar" onclick="return agregarComentario();" />
+    </form>
+</div>
+<script type="text/javascript" src="formulario.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    position: static;
+    justify-content: center;
+    max-width: 40%;
+    max-height: 20%;
+    font-size: 32px;
+}
+
+
+
+li {
+    padding-left: 5%;
+    border: oldlace;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 1px;
+    background-color:  rgba(255, 248, 127, 0.7);
+    opacity: 0.5;
+    font-weight: 600;
+    
+}
+section {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+aside {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-left: 15px;
+    margin-left: 15px;
+    width: 20%;
+    position: relative;
+    bottom: 46vw;
+    border: 2px solid oldlace;
+    box-shadow: 1px 1px;
+    background-color:  rgba(255, 248, 127, 0.7);
+    opacity: 0.5;
+    font-weight: 600;
+
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+h1 {
+    color: #ff637d;
+    font-size: 48px;
+}
+h2 {
+    color: #66d7d1;
+    font-size: 36px;
+}
+h3 {
+    color: #51aca7;
+    font-size: 24px;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+img {
+    max-width: 15%;
+    max-height: 15%;
+    padding-right: 9%;
+    padding-left: 9%;
+
+}
+.comentario {
+    text-align: center;
+}
+.img-carrete {
+   height: 150px;
+   padding-left: 300px;
+   padding-top: 10px;
+}
+/*queries de estilo para el desarrollo responsive*/
+@media screen and (min-width:600px) and (max-width: 1024px) {
+    ul { max-width: 5%;
+    }
+    aside {
+        position: inherit;
+        width: 100%;
+    }
+    img {
+        max-width: 12vw;
+        max-height: 12vw;
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+    footer {
+        text-align: center;
+    }
+    .img-carrete {
+        padding-left: 15vw;
+        max-width: 20vw;
+        max-height: 20vw;
+    }
+
+}
+@media screen and (max-width: 599px) {
+    ul { max-width: 5%;
+    }
+    aside {
+        position: inherit;
+        width: 100%;
+    }
+    img {
+        max-width: 10vw;
+        max-height: 10vw;
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+    .img-carrete {
+        padding-left: 15vw;
+        max-width: 20vw;
+        max-height: 20vw;
+    }
+    footer {
+        text-align: center;
+    }
+
+}

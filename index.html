@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integradora 1 Manuel Szajowicz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <header> <!--Header de la pagina-->
+    <h1>EgoVox, un blog de música</h1>
+    </header>
+    <nav id="nav-bar" class="nav-bar"> <!--barra de navegacion de la pagina-->
+        <ul>
+            <li>
+                <a href="index.html">Página principal </a>
+            </li>
+            <li>
+                <a href="sobremi.html">Sobre mi </a>
+            </li>
+            <li>
+                <a href="sobreesteblog.html">Sobre este blog </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="entradas" class="entradas"> <!--introduccion a las reviews, links en las imagenes-->
+        <h2>Entradas</h2>
+        <article>
+            <h3>Harpsong</h3>
+        
+              <p>El pasado 12 de Julio falleció Judy Dyble. Fue la primera cantante de la banda inglesa de folk rock Fairport Convention. Estuvo solamente un año con ellos, grabaron un solo disco juntos, se la escucha en la mitad de los temas y de esa mitad sólo es voz principal en un par de ellos.</p>
+            <p>Para seguir leyendo, click en la imagen.</p>
+            </article>
+            <article>
+                <h3>Nevermore</h3>
+            
+                <p>Cuando Robert Fripp le puso un alto a King Crimson en 1974 dejó huérfanas a dos grandes fuerzas rítmicas dentro del Prog: John Wetton y Bill Bruford. No es ninguna sorpresa que estos dos músicos continuaran trabajando juntos para luego formar una estrella fugaz dentro del rock progresivo, una banda que con poca historia que dejó una estampa clara en una fusión mágica entre rock, jazz y hasta elementos de disco.</p>
+                <p>Para seguir leyendo, click en la imagen.</p>
+            </article>
+            <article>
+                <h3>Kid Face</h3>
+           
+                <p>Samantha Crain es una artista que me cautivó desde el primer momento que la escuché. Con su voz profunda, un poco lastimosa y un poco dulce raspando por los versos de sus letras íntimas (y que bien le han ganado un par de premios de la comunidad nativo americana).</p>
+                <p>Para seguir leyendo, click en la imagen.</p>
+        </article>
+    </section>
+
+    <section id="proximamente">
+        <!--aca aparece el innerHTML del archivo de Javascript-->
+    </section>
+<!--cada imagen es el enlace a la review completa-->
+    <article id="imagenesReview" class="imagenesReview" >
+        <a href="kidface.html" target="_blank">
+            <img src="Imagenes/samantha.jpg" alt="samantha crain">
+        </a>
+        <a href="nevermore.html" target="_blank">
+        <img src="Imagenes/uk-band.jpg" alt="foto de UK">
+        </a>
+        <a href="harpsong.html" target="_blank">
+        <img src="Imagenes/judy.png" alt="judy dyble"/>
+        </a>
+    </article>
+    <aside id="review"> <!--etiqueta aside al costado del texto principal-->
+    <H3>¿Qué disco te gustaría que analice próximamente?</H3>
+        <div id="subirAlbum">
+            <!--aqui aparece el form del archivo de Javascript-->
+        </div>
+    </aside>
+        
+    <script type="text/javascript" src="Javascript.js"></script> <!--script enlazando el archivo de Javascript-->
+
+</body>
+</html>
