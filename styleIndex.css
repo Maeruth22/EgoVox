@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+}
+.homeBI {
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/27/05/48/turntable-1109588_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.navbar{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.navStyle a {
+    color: whitesmoke;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-collapse li {
+    margin-left: 20px;
+}
+.p-5 {
+    padding-top: 0!important;
+}
+.dropdown-menu{
+    background-color: black;
+}

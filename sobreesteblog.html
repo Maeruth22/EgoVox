@@ -2,62 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <link href="css/lightbox.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="Estilo.css" rel="stylesheet">
     <title>Sobre este Blog</title>
 </head>
-<body>
-
-    <header><!--Header de la pagina-->
-        <h1>EgoVox, un blog de música</h1>
-        </header>
-    <nav id="nav-bar" class="nav-bar"> <!--barra de navegacion de la pagina-->
-        <ul>
-            <li>
-                <a href="index.html">Página principal </a>
-            </li>
-            <li>
-                <a href="sobremi.html">Sobre mi </a>
-            </li>
-            <li>
-                <a href="sobreesteblog.html">Sobre este blog </a>
-            </li>
-        </ul>
-    </nav>
-    <section id="sobreesteblog">
-        <h2>Sobre este blog</h2>
-            <article>
-                <p>Arranqué con este blog durante la cuarentena porque no encontraba reseñas sobre algunos discos y artistas que me interesaba discutir.</p>
-                <p>Decidí enfocarme en artistas que considero poco reconocidxs, no artistas hiper famosxs ni artistas plenamente desconocidxs.</p>
-                <p>Eventualmente me gustaría hacer más reseñas sobre bandas y artistas nacionales que a veces quedan relegados frente a la música anglosajona.</p>
-            </article>
-    </section>
-    <h3>¿Querés dejar un comentario?</h3> <!--seccion de la pagina para completar el formulario y para dejar comentarios-->
-    <div class="comentario">
-    <form class="formulario">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" placeholder="Nombre" maxlength="30">
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" placeholder="Apellido" maxlength="30">
-        <label for="correo">Correo:</label>
-        <input type="email" id="correo" placeholder="ejemplo@correo.com" maxlength="60">
-
-    <h4>¿Primera vez en este Blog?</h4>
-
-        <input type="radio" id="si" name="recurrencia" value="si">
-        <label for="si">Sí</label><br>
-        <input type="radio" id="no" name="recurrencia" value="no">
-        <label for="no">No</label><br>
-        <input type="radio" id="otro" name="recurrencia" value="otro">
-        <label for="Otro">No recuerdo</label>
-        <br>
-        <br>
-        <textarea id="mensaje" maxlength="400" rows="10" cols="80"></textarea>
-        <input type="submit" value="Comentar" onclick="return agregarComentario();" />
-    </form>
+<body class="bglima">
+    <nav class="navbar navbar-expand-lg navbar-light p-5 bgnaranja">
+        <div class="container-fluid">
+          <a class="navbar-brand titulo" href="#">EgoVox</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="ml-auto">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navsize" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobreesteblog.html">Sobre este Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre mi</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Entradas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="harpsong.html">Harpsong</a></li>
+                  <li><a class="dropdown-item" href="nevermore.html">Nevermore</a></li>
+                  <li><a class="dropdown-item" href="kidface.html">Kid Face</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<div>
+<h2 class="m-5">Por que este Blog?</h2>
+<p class="m-2 pb-4 container-md parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum labore assumenda iure vel nihil odit eligendi explicabo! Commodi laboriosam alias iure perspiciatis voluptate voluptatem. Suscipit inventore hic eius pariatur voluptates.</p>
+<p class="m-2 pb-4 container-md parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum labore assumenda iure vel nihil odit eligendi explicabo! Commodi laboriosam alias iure perspiciatis voluptate voluptatem. Suscipit inventore hic eius pariatur voluptates.</p>
+<p class="m-2 pb-4 container-md parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum labore assumenda iure vel nihil odit eligendi explicabo! Commodi laboriosam alias iure perspiciatis voluptate voluptatem. Suscipit inventore hic eius pariatur voluptates.</p>
+<p class="m-2 pb-4 container-md parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum labore assumenda iure vel nihil odit eligendi explicabo! Commodi laboriosam alias iure perspiciatis voluptate voluptatem. Suscipit inventore hic eius pariatur voluptates.</p>
+<p class="m-2 pb-4 container-md parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum labore assumenda iure vel nihil odit eligendi explicabo! Commodi laboriosam alias iure perspiciatis voluptate voluptatem. Suscipit inventore hic eius pariatur voluptates.</p>
 </div>
-<script type="text/javascript" src="formulario.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="Javascript.js"></script>
 </body>
 </html>
